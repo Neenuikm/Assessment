@@ -24,17 +24,3 @@ public class VoucherDetailsRequest {
     @NotNull(message = "amount cannot be empty")
     private Double amount;
 }
-
-
-//
-//    @NotBlank(message = "- name cannot be empty")
-//    @Size(min = 1, max = 50, message = "Name must be between 1 and 50 characters")
-//    private String name;
-//
-//    private String phone;
-//
-//    @NotNull(message = "cannot empty")
-//    private LocalDate dateOfBirth;
-//
-//   @Valid
-//   private AddressDetailsRequest addressDetailsRequest;
